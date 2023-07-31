@@ -185,8 +185,8 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to <a href="x.com/Next_24h">NEXTY</a> Token BURNER DAPP!</h1>
-          <p><h2 className={styles.description}>whith my Web3 dApp you can use the Base Main Network</h2></p>
+          <h1 className={styles.title}>Welcome to <color blue>NEXTY Token</color> BURNER DAPP!</h1>
+          <p><h3 className={styles.description}>whith my Web3 dApp you can use the Base Main Network</h3></p>
           
           {walletConnected ? (
             <div>
