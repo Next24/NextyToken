@@ -185,7 +185,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to BURNER DAPP!</h1>
+          <h1 className={styles.title}>Welcome to Next24H BURNER DAPP!</h1>
+          <p><h3></h3></p>
+          
           {walletConnected ? (
             <div>
               <div className={styles.description}>
@@ -206,7 +208,7 @@ export default function Home() {
             </div>
           ) : (
             <button onClick={connectWallet} className={styles.button}>
-              Connect your wallet
+              want to start? Connect your wallet, please
             </button>
           )}
         </div>
