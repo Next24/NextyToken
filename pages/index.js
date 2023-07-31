@@ -186,7 +186,7 @@ export default function Home() {
       <div className={styles.main}>
         <div>
           <h1 className={styles.title}>Welcome to NEXTY Token BURNER DAPP!</h1>
-          <p><h3 className={styles.title}>whith my Web3 dApp you can use the Base Main Network</h3></p>
+          <p><h3>whith my Web3 dApp you can use the Base Main Network</h3></p>
           
           {walletConnected ? (
             <div>
