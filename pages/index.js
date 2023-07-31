@@ -185,8 +185,8 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Next24H BURNER DAPP!</h1>
-          <p><h3></h3></p>
+          <h1 className={styles.title}>Welcome to NEXTY Token BURNER DAPP!</h1>
+          <p><h3 className={styles.title}>whith my Web3 dApp you can use the Base Main Network</h3></p>
           
           {walletConnected ? (
             <div>
@@ -215,7 +215,7 @@ export default function Home() {
       </div>
       <footer className={styles.footer}>
         <p className="mt-4">
-          &copy; 2023 Meme Token. All Rights Reserved.
+          &copy; 2023 NEXT24H. All Rights Reserved.
         </p>
       </footer>
     </div>
